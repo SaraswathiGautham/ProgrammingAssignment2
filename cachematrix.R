@@ -18,7 +18,8 @@ list(set=set, get=get,
 }
 
 
-## The following function will return the inverse matrix of the original matrix
+## The following function will return the inverse matrix of the original matrix.
+## If the inverse exists a message is returned. Otherwise it gets calculated.
 
 cacheSolve <- function(x, ...) {
   inv<-getinv()
